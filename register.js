@@ -14,7 +14,7 @@ function validateForm() {
 
     if (username == ''){
 
-        document.getElementById("errormsg").innerHTML = "error";
+    document.getElementById("errormsg").innerHTML = "error";
       alert("Please input username");
       return false;
 
